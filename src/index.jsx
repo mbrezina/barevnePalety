@@ -15,6 +15,7 @@ const App = () => {
                     {
                         palettes.map(({name, image, attribution, colors, direction, description}) =>
                             <Palette
+                                key={name}
                                 name={name}
                                 image={image}
                                 attribution={attribution}
