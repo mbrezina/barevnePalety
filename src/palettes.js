@@ -1,5 +1,16 @@
 export const palettes = [
   {
+    name: 'Santorini',
+    image: '/img/santorini.jpg',
+    attribution: {
+      name: 'Jonathan Gallegos',
+      url: 'https://unsplash.com/photos/L2ZM1TbOO-8',
+    },
+    colors: ['#16354d', '#6b99c3', '#d2d2d4', '#e4e5ea', '#0c151c'],
+    direction: 'vertical',
+    description: 'Do not know how to combine rigor, tenderness, perseverance and determination in one male image? Then use this palette. Dark blue and black will give the image confidence, denim blue – romanticism and mystery, and gray tones – lightness and freedom. No one can resist such a decision.',
+  },
+  {
     name: 'Mimosa Retreat',
     image: '/img/mimosa-retreat.jpg',
     attribution: {
@@ -20,17 +31,6 @@ export const palettes = [
     colors: ['#012e4a', '#036280', '#378ba4', '#81bece', '#e8ede7'],
     direction: 'horizontal',
     description: 'Wildlife has given humanity an indescribable variety of color shades that, at first glance, cannot be combined for balance. However, the combination of dark greens canonically turns into a bright light green shade, growing into banana yellow. From the yellow tones, a sudden rich pink breaks through.',
-  },
-  {
-    name: 'Santorini',
-    image: '/img/santorini.jpg',
-    attribution: {
-      name: 'Jonathan Gallegos',
-      url: 'https://unsplash.com/photos/L2ZM1TbOO-8',
-    },
-    colors: ['#16354d', '#6b99c3', '#d2d2d4', '#e4e5ea', '#0c151c'],
-    direction: 'vertical',
-    description: 'Do not know how to combine rigor, tenderness, perseverance and determination in one male image? Then use this palette. Dark blue and black will give the image confidence, denim blue – romanticism and mystery, and gray tones – lightness and freedom. No one can resist such a decision.',
   },
   {
     name: 'Night Sky',
